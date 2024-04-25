@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  librespeed:
+    container_name: speedtest
+    image: ghcr.io/librespeed/speedtest:latest
+    environment:
+      MODE: standalone
+      #TITLE: "LibreSpeed"
+      #TELEMETRY: "false"
+      #ENABLE_ID_OBFUSCATION: "false"
+      #REDACT_IP_ADDRESSES: "false"
+      #PASSWORD:
+      #EMAIL:
+      #DISABLE_IPINFO: "false"
+      #DISTANCE: "km"
+      #WEBPORT: 80
+    ports:
+      - "80:80" # webport mapping (host:container)
+    restart: unless-stopped
