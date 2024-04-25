@@ -1,0 +1,66 @@
+pageInfo:
+  title: ReadIsRight
+sections:
+  - name: Management
+    icon: fas fa-network-wired
+    items:
+      - title: UDM Pro
+        description: unifi os
+        icon: png/unifi.png
+        url: https://fw1-web.i.readisright.com
+        id: 0_1021_udmpro
+      - title: VCSA1
+        description: vcenter esxi management
+        url: https://vcsa1.i.readisright.com
+        icon: png/vmware.png
+        id: 1_1021_vcsa
+      - title: VCSM1
+        description: VCenter management
+        url: https://vcsm1.i.readisright.com
+        icon: png/vmware.png
+        id: 2_1021_vcsm
+      - title: ESX1
+        description: ESXi on DELL R630
+        url: https://esx1-web.i.readisright.com
+        icon: png/vmware.png
+        id: 3_1021_esx1
+      - title: ESX2
+        description: ESXi on Aliexpress Mini PC
+        url: https://esx2-web.i.readisright.com
+        icon: png/vmware.png
+        id: 4_1021_esx2
+      - title: NginxProxyMgr
+        description: Reverse Proxy Front End management
+        url: https://proxy.i.readisright.com
+        icon: png/nginx.png
+        id: 5_1021_nginxproxymgr
+      - title: Pi-Hole 1
+        description: DNS settings for ad & tracker blocking
+        url: https://ph1.i.readisright.com/admin
+        icon: png/pihole.png
+        id: 6_1021_pihole1
+      - title: Pi-Hole 4
+        description: DNS settings for ad & tracker blocking
+        url: https://ph4.i.readisright.com/admin
+        icon: png/pihole.png
+        id: 7_1021_pihole4
+      - title: NAS1
+        description: Synology NAS Central Management
+        icon: png/synology.png
+        url: https://nas1-web.i.readisright.com
+        id: 8_1021_nas
+      - title: iDRAC1
+        description: Dell R630 iDRAC Management
+        icon: png/idrac.png
+        url: https://idrac1-web.i.readisright.com
+        id: 9_1021_idrac
+      - title: PHPLdapAdmin
+        description: Open LDAP Web Management Service
+        icon: png/phpldapadmin.png
+        url: https://ldap.i.readisright.com
+        id: 10_1021_phpldapadmin
+      - title: Ansible Semaphore
+        description: Web GUI for Ansible
+        icon: png/ansible.png
+        url: https://ansible-semaphore.i.readisright.com
+        id: 11_1021_ansiblesemaphore

@@ -1,0 +1,68 @@
+pageInfo:
+  title: ReadIsRight
+sections:
+  - name: Productivity
+    icon: fas fa-bookmark
+    displayData:
+      collapsed: false
+    items:
+      - title: Firefly
+        description: Financial manager, for keeping track of expenses, income, budgets, etc
+        url: https://finance.i.readisright.com
+        icon: png/firefly.png
+        id: 0_1302_firefly
+      - title: Firefly Importer
+        description: Import finance data to Firefly
+        icon: png/firefly.png
+        url: https://finance-imp.i.readisright.com
+        id: 1_1302_fireflyimporter
+      - title: Syncthing
+        description: Peer-to-peer file synchronization
+        url: https://syncthing.i.readisright.com
+        icon: png/syncthing.png
+        id: 3_1302_syncthing
+      - title: Code Server
+        description: Cloud based VS Code development environment
+        url: https://code-server.i.readisright.com
+        icon: png/code.png
+        id: 4_1302_codeserver
+      - title: Home Assistant
+        description: Smart home control
+        url: https://homeassist.i.readisright.com
+        icon: png/home-assistant.png
+        id: 5_1302_homeassistant
+      - title: MKDocs
+        description: Self Hosted Wiki
+        url: https://docs.i.readisright.com
+        icon: png/mkdocs.png
+        id: 6_1302_mkdocs
+      - title: Gitea
+        description: Git Server
+        icon: png/gitea.png
+        url: https://gitea.i.readisright.com
+        id: 7_1302_gitea
+      - title: Jenkins
+        description: Git Runner
+        icon: png/jenkins.png
+        url: https://jenkins.i.readisright.com
+        id: 8_1302_jenkins
+      - title: Coder
+        description: Place Holder
+        icon: png/codeserver.png
+        url: https://coder.i.readisright.com
+        id: 9_1302_coder
+      - title: Tandoor
+        description: Self Hosted Recipes Catalog
+        icon: png/tandoor.png
+        url: https://recipes.i.readisright.com
+        id: 10_1302_coder
+      - title: Kasm
+        description: Provides browser-based access to on-demand containerized desktops and applications.
+        icon: png/kasm.png
+        url: https://kasm.i.readisright.com
+        id: 11_1302_kasm
+      - title: Pwndrop
+        description: No more needing python simple http server
+        icon: png/pwndrop.png
+        url: https://pwndrop.i.readisright.com
+        id: 12_1302_pwndrop

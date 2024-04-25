@@ -1,0 +1,91 @@
+pageInfo:
+  title: ReadIsRight
+sections:
+  - name: Media
+    icon: fas fa-photo-video
+    items:
+      - title: Plex
+        description: Self-Hosted Media Streaming Service
+        url: https://plex.i.readisright.com
+        icon: png/plex.png
+        id: 0_480_plex
+      - title: Prowlarr
+        description: Self-Hosted Media Streaming Service
+        url: https://prowlarr.i.readisright.com
+        icon: png/prowlarr.png
+        id: 1_480_prowlarr
+      - title: Radarr
+        description: Self-Hosted Media Streaming Service
+        url: https://radarr.i.readisright.com
+        icon: png/radarr.png
+        id: 2_480_radarr
+      - title: Sonarr
+        description: Self-Hosted Media Streaming Service
+        url: https://sonarr.i.readisright.com
+        icon: png/sonarr.png
+        id: 3_480_sonarr
+      - title: Sonarr-Anime
+        description: Self-Hosted Media Streaming Service
+        url: https://sonarr-anime.i.readisright.com
+        icon: png/sonarr.png
+        id: 4_480_sonarranime
+      - title: Readarr
+        description: Self-Hosted Media Streaming Service
+        url: https://readarr.i.readisright.com
+        icon: png/readarr.png
+        id: 5_480_readarr
+      - title: Readarr-Audio
+        description: Self-Hosted Media Streaming Service
+        url: https://readarr-audio.i.readisright.com
+        icon: png/readarr.png
+        id: 6_480_readarraudio
+      - title: Lidarr
+        description: Self-Hosted Media Streaming Service
+        url: https://lidarr.i.readisright.com
+        icon: png/lidarr.png
+        id: 7_480_lidarr
+      - title: Sabnzbd
+        description: Self-Hosted Media Streaming Service
+        url: https://sabnzbd.i.readisright.com
+        icon: png/sabnzbd.png
+        id: 8_480_sabnzbd
+      - title: qBittorrent
+        description: Self-Hosted Media Streaming Service
+        url: https://qbittorrent.i.readisright.com
+        icon: png/qbittorrent.png
+        id: 9_480_qbittorrent
+      - title: Overseerr
+        description: Self-Hosted Media Streaming Service
+        url: https://overseerr.i.readisright.com
+        icon: png/overseerr.png
+        id: 10_480_overseerr
+      - title: Bazarr
+        description: Self-Hosted Media Streaming Service
+        url: https://bazarr.i.readisright.com
+        icon: png/bazarr.png
+        id: 11_480_bazarr
+      - title: Tautulli
+        description: Monitoring and statistics for Plex
+        url: https://tautulli.i.readisright.com
+        icon: png/tautulli.png
+        id: 12_480_tautulli
+      - title: Plex Public
+        description: Self-Hosted Media Streaming Service
+        url: https://surjtfdkhwqbeci.readisright.com
+        icon: png/plex.png
+        id: 13_480_plexpublic
+      - title: Calibre 
+        description: Calibre Server
+        url: https://calibre.readisright.com
+        icon: png/calibre.png
+        id: 13_480_calibre
+      - title: Calibre Auth
+        description: Calibre Auth
+        url: https://calibre-auth.readisright.com
+        icon: png/calibre.png
+        id: 14_480_calibre
+      - title: Calibre Web
+        description: Calibre Web
+        url: https://calibre-web.readisright.com
+        icon: png/calibre-web.png
+        id: 15_480_calibre-web

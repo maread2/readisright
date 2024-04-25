@@ -1,0 +1,9 @@
+pageInfo:
+  title: ReadIsRight
+sections:
+  - name: Security Feeds
+    widgets:
+      - type: rss-feed
+        options:
+          rssUrl: https://www.schneier.com/blog/atom.xml
+          apiKey: zp0rtsrnbribbtqsh2vljj7kewq71gyemeuddfkk

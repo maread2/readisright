@@ -1,0 +1,71 @@
+pageInfo:
+  title: ReadIsRight
+sections:
+  - name: Monitoring
+    icon: fas fa-monitor-heart-rate
+    items:
+      - title: Splunk
+        description: SIEM
+        url: https://splunk.i.readisright.com
+        icon: png/splunk.png
+        id: 0_1062_splunk
+      - title: Portainer
+        description: Docker container management
+        url: https://portainer.i.readisright.com
+        icon: png/portainer.png
+        id: 1_1062_portainer
+      - title: cAdvisor (docker-mgmt)
+        description: Container monitoring
+        url: https://cadvisor.i.readisright.com
+        icon: png/cadvisor.png
+        id: 2_1062_cadvisor
+      - title: cAdvisor (docker-servers)
+        description: Container monitoring
+        url: https://cadvisor.docker-servers.i.readisright.com
+        icon: png/cadvisor.png
+        id: 3_1062_cadvisor
+      - title: Glances
+        description: Simple resource usage
+        url: https://glances.i.readisright.com
+        icon: png/glances.png
+        id: 4_1062_glances
+      - title: Dozzle
+        description: Docker container web log viewer
+        url: https://dozzle.i.readisright.com
+        icon: png/dozzle.png
+        id: 5_1062_dozzle
+      - title: Prometheus
+        description: System Statistics Aggregation with PromQL
+        url: https://prometheus.i.readisright.com
+        icon: png/prometheus.png
+        id: 6_1062_prometheus
+      - title: LibreSpeed
+        description: Local network speed and latency test
+        url: https://speedtest.i.readisright.com
+        icon: png/librespeed.png
+        id: 7_1062_librespeed
+      - title: Grafana
+        description: Data visualised on dashboards
+        url: https://grafana.i.readisright.com
+        icon: png/grafana.png
+        id: 8_1062_grafana
+      - title: Uptime-Kuma
+        description: Data visualised on dashboards
+        url: https://uptime-kuma.i.readisright.com
+        icon: png/uptimekuma.png
+        id: 8_1062_uptimekuma
+      - title: K8S Dashboard
+        description: Kubernetes GUI
+        url: https://kdb.i.readisright.com
+        icon: png/kubernetes-dashboard.png
+        id: 10_1062_k8sdashboard
+      - title: Longhorn
+        description: Kubernetes replicated storage
+        url: https://longhorn.i.readisright.com
+        icon: png/longhorn.png
+        id: 11_1062_longhorn
+      - title: Traefik
+        description: Reverse Proxy Monitoring
+        url: https://traefik.i.readisright.com
+        icon: png/traefik.png
+        id: 12_1062_traefik

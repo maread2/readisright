@@ -1,0 +1,406 @@
+pageInfo:
+  title: ридисрайт
+pages:
+  - name: Security Feeds
+    path: pages/rss-feeds.yml
+appConfig:
+  webSearch:
+    searchEngine: google
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: true
+    hideFooter: true
+  language: en
+  statusCheck: false
+  statusCheckInterval: 15
+  enableMultiTasking: true
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  disableConfigurationForNonAdmin: false
+  disableSmartSort: true
+  theme: ReadIsRight
+  cssThemes: ["ReadIsRight"]
+  layout: auto
+  iconSize: small
+sections:
+  - name: Productivity
+    icon: fas fa-bookmark
+    displayData:
+      collapsed: false
+    items:
+      - title: Firefly
+        description: Financial manager, for keeping track of expenses, income, budgets, etc
+        url: https://finance.i.readisright.com
+        icon: png/firefly.png
+        id: 0_1302_firefly
+      - title: Firefly Importer
+        description: Import finance data to Firefly
+        icon: png/firefly.png
+        url: https://finance-imp.i.readisright.com
+        id: 1_1302_fireflyimporter
+      - title: Syncthing
+        description: Peer-to-peer file synchronization
+        url: https://syncthing.i.readisright.com
+        icon: png/syncthing.png
+        id: 3_1302_syncthing
+      - title: Code Server
+        description: Cloud based VS Code development environment
+        url: https://code-server.i.readisright.com
+        icon: png/code.png
+        id: 4_1302_codeserver
+      - title: Home Assistant
+        description: Smart home control
+        url: https://homeassist.i.readisright.com
+        icon: png/home-assistant.png
+        id: 5_1302_homeassistant
+      - title: MKDocs
+        description: Self Hosted Wiki
+        url: https://docs.i.readisright.com
+        icon: png/mkdocs.png
+        id: 6_1302_mkdocs
+      - title: Gitea
+        description: Git Server
+        icon: png/gitea.png
+        url: https://gitea.i.readisright.com
+        id: 7_1302_gitea
+      - title: Jenkins
+        description: Git Runner
+        icon: png/jenkins.png
+        url: https://jenkins.i.readisright.com
+        id: 8_1302_jenkins
+      - title: Coder
+        description: Place Holder
+        icon: png/codeserver.png
+        url: https://coder.i.readisright.com
+        id: 9_1302_coder
+      - title: Tandoor
+        description: Self Hosted Recipes Catalog
+        icon: png/tandoor.png
+        url: https://recipes.i.readisright.com
+        id: 10_1302_coder
+      - title: Kasm
+        description: Provides browser-based access to on-demand containerized desktops and applications.
+        icon: png/kasm.png
+        url: https://kasm.i.readisright.com
+        id: 11_1302_kasm
+      - title: Pwndrop
+        description: No more needing python simple http server
+        icon: png/pwndrop.png
+        url: https://pwndrop.i.readisright.com
+        id: 12_1302_pwndrop
+  - name: Management
+    icon: fas fa-network-wired
+    items:
+      - title: UDM Pro
+        description: unifi os
+        icon: png/unifi.png
+        url: https://fw1-web.i.readisright.com
+        id: 0_1021_udmpro
+      - title: VCSA1
+        description: vcenter esxi management
+        url: https://vcsa1.i.readisright.com
+        icon: png/vmware-esxi.png
+        id: 1_1021_vcsa
+      - title: VCSM1
+        description: VCenter management
+        url: https://vcsm1.i.readisright.com
+        icon: png/vmware-esxi.png
+        id: 2_1021_vcsm
+      - title: ESX1
+        description: ESXi on DELL R630
+        url: https://esx1-web.i.readisright.com
+        icon: png/vmware.png
+        id: 3_1021_esx1
+      - title: ESX2
+        description: ESXi on Aliexpress Mini PC
+        url: https://esx2-web.i.readisright.com
+        icon: png/vmware.png
+        id: 4_1021_esx2
+      - title: NginxProxyMgr
+        description: Reverse Proxy Front End management
+        url: https://proxy.i.readisright.com
+        icon: png/nginx.png
+        id: 5_1021_nginxproxymgr
+      - title: Pi-Hole 1
+        description: DNS settings for ad & tracker blocking
+        url: https://ph1.i.readisright.com/admin
+        icon: png/pihole.png
+        id: 6_1021_pihole1
+      - title: Pi-Hole 4
+        description: DNS settings for ad & tracker blocking
+        url: https://ph4.i.readisright.com/admin
+        icon: png/pihole.png
+        id: 7_1021_pihole4
+      - title: NAS1
+        description: Synology NAS Central Management
+        icon: png/synology.png
+        url: https://nas1-web.i.readisright.com
+        id: 8_1021_nas
+      - title: iDRAC1
+        description: Dell R630 iDRAC Management
+        icon: png/idrac.png
+        url: https://idrac1.i.readisright.com
+        id: 9_1021_idrac
+      - title: PHPLdapAdmin
+        description: Open LDAP Web Management Service
+        icon: png/phpldapadmin.png
+        url: https://ldap.i.readisright.com
+        id: 10_1021_phpldapadmin
+      - title: Ansible Semaphore
+        description: Web GUI for Ansible
+        icon: png/ansible.png
+        url: https://ansible-semaphore.i.readisright.com
+        id: 11_1021_ansiblesemaphore
+      - title: Vault
+        description: Hashicorp Vault
+        icon: png/vault.png
+        url: https://vault.i.readisright.com
+        id: 12_1021_vault
+  - name: Monitoring
+    icon: fas fa-monitor-heart-rate
+    items:
+      - title: Splunk
+        description: SIEM
+        url: https://splunk.i.readisright.com
+        icon: png/splunk.png
+        id: 0_1062_splunk
+      - title: Portainer
+        description: Docker container management
+        url: https://portainer.i.readisright.com
+        icon: png/portainer.png
+        id: 1_1062_portainer
+      - title: cAdvisor (docker-mgmt)
+        description: Container monitoring
+        url: https://cadvisor.i.readisright.com
+        icon: png/cadvisor.png
+        id: 2_1062_cadvisor
+      - title: cAdvisor (docker-servers)
+        description: Container monitoring
+        url: https://cadvisor.docker-servers.i.readisright.com
+        icon: png/cadvisor.png
+        id: 3_1062_cadvisor
+      - title: Glances
+        description: Simple resource usage
+        url: https://glances.i.readisright.com
+        icon: png/glances.png
+        id: 4_1062_glances
+      - title: Dozzle
+        description: Docker container web log viewer
+        url: https://dozzle.i.readisright.com
+        icon: png/dozzle.png
+        id: 5_1062_dozzle
+      - title: Prometheus
+        description: System Statistics Aggregation with PromQL
+        url: https://prometheus.i.readisright.com
+        icon: png/prometheus.png
+        id: 6_1062_prometheus
+      - title: LibreSpeed
+        description: Local network speed and latency test
+        url: https://speedtest.i.readisright.com
+        icon: png/librespeed.png
+        id: 7_1062_librespeed
+      - title: Grafana
+        description: Data visualised on dashboards
+        url: https://grafana.i.readisright.com
+        icon: png/grafana.png
+        id: 8_1062_grafana
+      - title: Uptime-Kuma
+        description: Data visualised on dashboards
+        url: https://uptime-kuma.i.readisright.com
+        icon: png/uptimekuma.png
+        id: 8_1062_uptimekuma
+      - title: K8S Dashboard
+        description: Kubernetes GUI
+        url: https://kdb.i.readisright.com
+        icon: png/kubernetes-dashboard.png
+        id: 10_1062_k8sdashboard
+      - title: Longhorn
+        description: Kubernetes replicated storage
+        url: https://longhorn.i.readisright.com
+        icon: png/longhorn.png
+        id: 11_1062_longhorn
+      - title: Traefik
+        description: Reverse Proxy Monitoring
+        url: https://traefik.i.readisright.com
+        icon: png/traefik.png
+        id: 12_1062_traefik
+  - name: Media
+    icon: fas fa-photo-video
+    items:
+      - title: Plex
+        description: Self-Hosted Media Streaming Service
+        url: https://plex.i.readisright.com
+        icon: png/plex.png
+        id: 0_480_plex
+      - title: Prowlarr
+        description: Self-Hosted Media Streaming Service
+        url: https://prowlarr.i.readisright.com
+        icon: png/prowlarr.png
+        id: 1_480_prowlarr
+      - title: Radarr
+        description: Self-Hosted Media Streaming Service
+        url: https://radarr.i.readisright.com
+        icon: png/radarr.png
+        id: 2_480_radarr
+      - title: Sonarr
+        description: Self-Hosted Media Streaming Service
+        url: https://sonarr.i.readisright.com
+        icon: png/sonarr.png
+        id: 3_480_sonarr
+      - title: Sonarr-Anime
+        description: Self-Hosted Media Streaming Service
+        url: https://sonarr-anime.i.readisright.com
+        icon: png/sonarr.png
+        id: 4_480_sonarranime
+      - title: Readarr
+        description: Self-Hosted Media Streaming Service
+        url: https://readarr.i.readisright.com
+        icon: png/readarr.png
+        id: 5_480_readarr
+      - title: Readarr-Audio
+        description: Self-Hosted Media Streaming Service
+        url: https://readarr-audio.i.readisright.com
+        icon: png/readarr.png
+        id: 6_480_readarraudio
+      - title: Lidarr
+        description: Self-Hosted Media Streaming Service
+        url: https://lidarr.i.readisright.com
+        icon: png/lidarr.png
+        id: 7_480_lidarr
+      - title: Sabnzbd
+        description: Self-Hosted Media Streaming Service
+        url: https://sabnzbd.i.readisright.com
+        icon: png/sabnzbd.png
+        id: 8_480_sabnzbd
+      - title: qBittorrent
+        description: Self-Hosted Media Streaming Service
+        url: https://qbittorrent.i.readisright.com
+        icon: png/qbittorrent.png
+        id: 9_480_qbittorrent
+      - title: Overseerr
+        description: Self-Hosted Media Streaming Service
+        url: https://overseerr.i.readisright.com
+        icon: png/overseerr.png
+        id: 10_480_overseerr
+      - title: Bazarr
+        description: Self-Hosted Media Streaming Service
+        url: https://bazarr.i.readisright.com
+        icon: png/bazarr.png
+        id: 11_480_bazarr
+      - title: Tautulli
+        description: Monitoring and statistics for Plex
+        url: https://tautulli.i.readisright.com
+        icon: png/tautulli.png
+        id: 12_480_tautulli
+      - title: Plex Public
+        description: Self-Hosted Media Streaming Service
+        url: https://plex.readisright.com
+        icon: png/plex.png
+        id: 13_480_plexpublic
+      - title: Calibre 
+        description: Calibre Server
+        url: https://calibre.readisright.com
+        icon: png/calibre.png
+        id: 13_480_calibre
+      - title: Calibre Auth
+        description: Calibre Auth
+        url: https://calibre-auth.readisright.com
+        icon: png/calibre.png
+        id: 14_480_calibre
+      - title: Calibre Web
+        description: Calibre Web
+        url: https://calibre-web.readisright.com
+        icon: png/calibre-web.png
+        id: 15_480_calibre-web
+  - name: External Utilities
+    displayData:
+      collapsed: false
+    items:
+      - title: Public IP
+        description: Check public IP and associated data
+        url: https://www.whatismyip.com/
+        id: 0_1823_publicip
+      - title: Who Is
+        description: Check ICAN info for a given IP address or domain
+        url: https://whois.domaintools.com/
+        id: 1_1823_whois
+      - title: Speed Test
+        description: Upload + download speeds and latency
+        url: https://speed.cloudflare.com/
+        id: 2_1823_speedtest
+      - title: Mullvad Check
+        description: Confirms a secure connection to Mullvad's WireGuard servers
+        url: https://mullvad.net/check
+        id: 3_1823_mullvadcheck
+      - title: Malware Bazaar
+        description: Confirms a secure connection to Mullvad's WireGuard servers
+        url: https://bazaar.abuse.ch
+        id: 4_1823_malwarebazaar
+      - title: Newhosting
+        description: My Usenet service provider
+        url: https://www.newshosting.com
+        id: 5_1823_newhosting
+      - title: NZBgeek
+        description: My NZB indexer
+        url: https://nzbgeek.info
+        id: 6_1823_nzbgeek
+      - title: IP Leak
+        description: Check what IPs are in use
+        url: https://ipleak.net
+        id: 7_1823_ipleak
+      - title: Homelab Wiki
+        description: Check what IPs are in use
+        url: https://thehomelab.wiki
+        id: 8_1823_homelabwiki
+  - name: Socials
+    displayData:
+      collapsed: false
+    items:
+      - title: Github
+        description: tbd
+        url: https://www.github.com/
+        icon: png/github.png
+        id: 0_1823_Github
+      - title: Linkedin
+        description: tbd
+        url: https://www.linkedin.com/
+        icon: png/linkedin.png
+        id: 1_1823_linkdin
+      - title: Instagram
+        description: tbd
+        url: https://www.instagram.com/
+        icon: png/instagram.png
+        id: 2_1823_instagram
+  - name: Finance & Bills
+    displayData:
+      collapsed: false
+    items:
+      - title: Amex
+        description: tbd
+        url: https://www.github.com/
+        icon: png/github.png
+        id: 0_1823_Github
+      - title: NFCU
+        description: tbd
+        url: https://www.linkedin.com/
+        icon: png/linkedin.png
+        id: 1_1823_linkdin
+      - title: USAA
+        description: tbd
+        url: https://www.instagram.com/
+        icon: png/instagram.png
+        id: 2_1823_instagram
+      - title: Geico
+        description: tbd
+        url: https://www.instagram.com/
+        icon: png/instagram.png
+        id: 2_1823_instagram
+      - title: Storage Unit
+        description: tbd
+        url: https://www.instagram.com/
+        icon: png/instagram.png
+        id: 2_1823_instagram
+    

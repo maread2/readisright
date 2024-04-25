@@ -1,0 +1,44 @@
+pageInfo:
+  title: ReadIsRight Home
+sections:
+  - name: External Utilities
+    displayData:
+      collapsed: false
+    items:
+      - title: Public IP
+        description: Check public IP and associated data
+        url: https://www.whatismyip.com/
+        id: 0_1823_publicip
+      - title: Who Is Lookup
+        description: Check ICAN info for a given IP address or domain
+        url: https://whois.domaintools.com/
+        id: 1_1823_whoislookup
+      - title: Speed Test
+        description: Upload + download speeds and latency
+        url: https://speed.cloudflare.com/
+        id: 2_1823_speedtest
+      - title: Mullvad Check
+        description: Confirms a secure connection to Mullvad's WireGuard servers
+        url: https://mullvad.net/check
+        id: 3_1823_mullvadcheck
+      - title: Malware Bazaar
+        description: Confirms a secure connection to Mullvad's WireGuard servers
+        url: https://bazaar.abuse.ch
+        id: 4_1823_malwarebazaar
+      - title: Newhosting
+        description: My Usenet service provider
+        url: https://www.newshosting.com
+        id: 5_1823_newhosting
+      - title: NZBgeek
+        description: My NZB indexer
+        url: https://nzbgeek.info
+        id: 6_1823_nzbgeek
+      - title: IP Leak
+        description: Check what IPs are in use
+        url: https://ipleak.net
+        id: 7_1823_ipleak
+      - title: Homelab Wiki
+        description: Check what IPs are in use
+        url: https://thehomelab.wiki
+        id: 8_1823_homelabwiki
+
