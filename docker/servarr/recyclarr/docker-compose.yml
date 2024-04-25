@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  recyclarr:
+    container_name: recyclarr
+    image: ghcr.io/recyclarr/recyclarr:edge
+    user: 1001:1001
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-file: ${DOCKERLOGGING_MAXFILE}
+        max-size: ${DOCKERLOGGING_MAXSIZE}
+    labels:
+      - org.hotio.pullio.update=${PULLIO_UPDATE}
+      - org.hotio.pullio.notify=${PULLIO_NOTIFY}
+      - org.hotio.pullio.discord.webhook=${PULLIO_DISCORD_WEBHOOK}
+    environment:
+      - TZ=${TZ}
+      - GUID=${ID}
+      - CRON_SCHEDULE=@daily
+    #  - PUID=${PUID}
+    #  - PGID=${PGID}
+      - RECYCLARR_CREATE_CONFIG=false
+    volumes:
+      - ${DOCKERCONFDIR}/recyclarr:/config

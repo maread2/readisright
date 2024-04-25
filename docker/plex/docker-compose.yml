@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  plex:
+    container_name: plex
+    image: ghcr.io/hotio/plex:latest
+    restart: unless-stopped
+    #deploy:
+      #resources:
+        #reservations:
+          #devices:
+            #- capabilities: [gpu]
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - UMASK=002
+      - PLEX_CLAIM=claim-zTuauxpdayzJiys6SLLo
+      #- ADVERTISE_IP=${PLEX_ADVERTISE_IP}
+      - PLEX_PASS=${PLEX_PASS}
+      #- NVIDIA_VISIBLE_DEVICES=all
+      #- NVIDIA_DRIVER_CAPABILITIES=compute,video,utility
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKERCONFDIR}/plex:/config:rw
+      - ${DOCKERSTORAGEDIR}/media:/data/media:rw
+    ports:
+      - 32400:32400
+    logging:
+      driver: json-file
+      options:
+        max-file: ${DOCKERLOGGING_MAXFILE}
+        max-size: ${DOCKERLOGGING_MAXSIZE}
+    labels:
+      - org.hotio.pullio.update=${PULLIO_UPDATE}
+      - org.hotio.pullio.notify=${PULLIO_NOTIFY}
+      - org.hotio.pullio.discord.webhook=${PULLIO_DISCORD_WEBHOOK}

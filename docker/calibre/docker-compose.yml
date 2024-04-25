@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  calibre:
+    image: ghcr.io/linuxserver/calibre:latest
+    container_name: calibre
+    environment:
+      - PUID=${PUID} #change this to your user's PID
+      - PGID=${PGID} #change this to your user's PGID
+    volumes:
+      - ${DOCKERCONFDIR}/calibre/config:/config #change before the ':'
+      - ${DOCKERCONFDIR}/calibre/upload:/uploads #change before the ':'
+      - ${DOCKERCONFDIR}/calibre/plugins:/plugins #change before the ':'
+      - ${DOCKERSTORAGEDIR}/media/books:/Calibre_Library #this is where your ebooks will end up
+    ports:
+      - 8087:8080 #change before the ':' if necessary
+      - 8088:8081 #change before the ':' if necessary
+    restart: unless-stopped
