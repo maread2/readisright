@@ -14,8 +14,8 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
       - UMASK=002
-      - PLEX_CLAIM=claim-zTuauxpdayzJiys6SLLo
-      #- ADVERTISE_IP=${PLEX_ADVERTISE_IP}
+      - PLEX_CLAIM=${PLEX_CLAIM}
+      - ADVERTISE_IP=${PLEX_ADVERTISE_IP}
       - PLEX_PASS=${PLEX_PASS}
       #- NVIDIA_VISIBLE_DEVICES=all
       #- NVIDIA_DRIVER_CAPABILITIES=compute,video,utility
